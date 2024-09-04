@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Organic Foods</string>
+    <string name="organicFarming">Organic Farming</string>
+    <string name="pomegranate">Pomegranate</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="login">LOGIN</string>
+    <string name="signup_">SIGNUP</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="fillDetails"><u>Fill Details</u></string>
+    <string name="submit">SUBMIT</string>
+    <string name="name">Name</string>
+    <string name="contact_no">Contact Number</string>
+    <string name="address">Address</string>
+    <string name="mail">E-Mail ID</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_product">Product</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="home">HOME</string>
+    <string name="logout">LOGOUT</string>
+    <string name="cart">CART</string>
+    <string name="upload">UPLOAD</string>
+    <string name="update">UPDATE</string>
+    <string name="about">ABOUT US</string>
+</resources>

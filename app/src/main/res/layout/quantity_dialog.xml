@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dialogBoxWidth"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/titleBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:background="@drawable/layout_border"
+        android:padding="@dimen/margin5">
+
+        <TextView
+            android:id="@+id/dialogTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text24"
+            android:text="@string/quantity"
+            android:layout_weight="0.99"/>
+
+        <ImageButton
+            android:id="@+id/closeDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:layout_weight="0.01"
+            android:background="@drawable/ic_close"
+            android:contentDescription="@string/description" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/kgs"
+        android:layout_below="@id/titleBarLayout"
+        android:padding="@dimen/margin5"/>
+
+</RelativeLayout>

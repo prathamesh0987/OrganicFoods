@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="titleSize">24sp</dimen>
+    <dimen name="titleTopMargin">15dp</dimen>
+    <dimen name="thickness">3dp</dimen>
+    <dimen name="twodp">2dp</dimen>
+    <dimen name="itemName">22sp</dimen>
+    <dimen name="bottomMargin">30dp</dimen>
+    <dimen name="indicatorPadding">35dp</dimen>
+    <dimen name="imageBottomMargin">50dp</dimen>
+    <dimen name="loginPadding">30dp</dimen>
+    <dimen name="loginHeight">280dp</dimen>
+    <dimen name="signupMargin">25dp</dimen>
+    <dimen name="layoutPadding">20dp</dimen>
+</resources>

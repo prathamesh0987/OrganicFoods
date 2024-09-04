@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/primary"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/homeScreen"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home" />
+
+        <item
+            android:id="@+id/upload"
+            android:icon="@drawable/ic_upload"
+            android:title="@string/upload"/>
+
+        <item
+            android:id="@+id/updateOffer"
+            android:icon="@drawable/ic_update"
+            android:title="@string/update"/>
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/logout" />
+    </group>
+    <group
+        android:id="@+id/secondary"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/aboutUs"
+            android:icon="@drawable/ic_about"
+            android:title="@string/about"/>
+    </group>
+</menu>
